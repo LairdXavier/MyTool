@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerialInterface", "SerialInterface\SerialInterface.vcxproj", "{3F50D40E-620F-40CD-A6EB-B011196E40E5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serial_win_cplus", "serial_win_cplus\serial_win_cplus.vcxproj", "{43F4328D-3850-4290-A623-32FDB736ED29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Debug|x64.ActiveCfg = Debug|x64
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Debug|x64.Build.0 = Debug|x64
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Debug|x86.ActiveCfg = Debug|Win32
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Debug|x86.Build.0 = Debug|Win32
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Release|x64.ActiveCfg = Release|x64
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Release|x64.Build.0 = Release|x64
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Release|x86.ActiveCfg = Release|Win32
-		{3F50D40E-620F-40CD-A6EB-B011196E40E5}.Release|x86.Build.0 = Release|Win32
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Debug|x64.ActiveCfg = Debug|x64
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Debug|x64.Build.0 = Debug|x64
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Debug|x86.ActiveCfg = Debug|Win32
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Debug|x86.Build.0 = Debug|Win32
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Release|x64.ActiveCfg = Release|x64
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Release|x64.Build.0 = Release|x64
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Release|x86.ActiveCfg = Release|Win32
+		{43F4328D-3850-4290-A623-32FDB736ED29}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

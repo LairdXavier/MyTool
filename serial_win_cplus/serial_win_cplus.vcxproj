@@ -18,17 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="SerialInterface.cpp" />
-    <ClCompile Include="test.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="SerialInterface.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3F50D40E-620F-40CD-A6EB-B011196E40E5}</ProjectGuid>
-    <RootNamespace>SerialInterface</RootNamespace>
+    <ProjectGuid>{43F4328D-3850-4290-A623-32FDB736ED29}</ProjectGuid>
+    <RootNamespace>serialwincplus</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -144,6 +137,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SerialInterface.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SerialInterface.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

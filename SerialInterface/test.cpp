@@ -17,7 +17,7 @@ int main()
         getchar();
         return 0;
     }
-
+    //测试发送
     if (com.writeStr("Hello World!"))
     {
         cout << "send success" << endl;

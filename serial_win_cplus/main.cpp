@@ -29,7 +29,5 @@ int main()
 
     com.closeComm();
 
-
-    //getchar();
     return 0;    
 }
